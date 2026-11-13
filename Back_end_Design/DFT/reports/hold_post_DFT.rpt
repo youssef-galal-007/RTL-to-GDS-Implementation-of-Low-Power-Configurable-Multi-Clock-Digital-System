@@ -1,0 +1,83 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : SYS_TOP
+Version: O-2018.06-SP1
+Date   : Wed Oct  7 01:41:04 2026
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c   Library: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: ALU/o_ALU_OUT_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: ALU/o_ALU_OUT_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ALU/o_ALU_OUT_reg[0]/CK (SDFFRQX2M)      0.00       0.00 r
+  ALU/o_ALU_OUT_reg[0]/Q (SDFFRQX2M)       0.34       0.34 r
+  ALU/o_ALU_OUT_reg[1]/SI (SDFFRQX2M)      0.00       0.34 r
+  data arrival time                                   0.34
+
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  ALU/o_ALU_OUT_reg[1]/CK (SDFFRQX2M)      0.00       0.10 r
+  library hold time                       -0.18      -0.08
+  data required time                                 -0.08
+  -----------------------------------------------------------
+  data required time                                 -0.08
+  data arrival time                                  -0.34
+  -----------------------------------------------------------
+  slack (MET)                                         0.42
+
+
+  Startpoint: UART/U_RX/RX_FSM_CU/o_data_valid_fsm_reg
+              (rising edge-triggered flip-flop clocked by CLK_DFT)
+  Endpoint: Data_Sync/sync_en_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by CLK_DFT)
+  Path Group: CLK_DFT
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_DFT (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  UART/U_RX/RX_FSM_CU/o_data_valid_fsm_reg/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  UART/U_RX/RX_FSM_CU/o_data_valid_fsm_reg/Q (SDFFRQX2M)
+                                                          0.35       0.35 r
+  UART/U_RX/RX_FSM_CU/o_data_valid_fsm (RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6_test_1)
+                                                          0.00       0.35 r
+  UART/U_RX/o_data_valid_TOP (Uart_RX_TOP_data_width_TOP8_prescale_bits_TOP6_test_1)
+                                                          0.00       0.35 r
+  UART/o_RX_data_valid (Uart_TOP_data_width8_prescale_bits6_test_1)
+                                                          0.00       0.35 r
+  Data_Sync/i_bus_en (Data_synchronizer_data_width8_Num_Stg2_test_1)
+                                                          0.00       0.35 r
+  Data_Sync/sync_en_reg_reg[0]/D (SDFFRQX2M)              0.00       0.35 r
+  data arrival time                                                  0.35
+
+  clock CLK_DFT (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.01       0.01
+  Data_Sync/sync_en_reg_reg[0]/CK (SDFFRQX2M)             0.00       0.01 r
+  library hold time                                      -0.16      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.51
+
+
+1

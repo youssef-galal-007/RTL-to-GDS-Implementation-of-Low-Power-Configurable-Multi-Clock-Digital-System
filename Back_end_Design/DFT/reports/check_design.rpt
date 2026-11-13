@@ -1,0 +1,64 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP1
+Date:        Wed Oct  7 01:40:10 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     16
+    Unconnected ports (LINT-28)                                    12
+    Shorted outputs (LINT-31)                                       1
+    Constant outputs (LINT-52)                                      3
+
+Cells                                                              26
+    Cells do not drive (LINT-1)                                    24
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'Alu_unit_op_width8', cell 'C339' does not drive any nets. (LINT-1)
+Warning: In design 'Alu_unit_op_width8', cell 'C340' does not drive any nets. (LINT-1)
+Warning: In design 'Alu_unit_op_width8', cell 'C341' does not drive any nets. (LINT-1)
+Warning: In design 'Alu_unit_op_width8', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'Alu_unit_op_width8', cell 'C418' does not drive any nets. (LINT-1)
+Warning: In design 'Alu_unit_op_width8', cell 'C420' does not drive any nets. (LINT-1)
+Warning: In design 'Alu_unit_op_width8', cell 'C422' does not drive any nets. (LINT-1)
+Warning: In design 'CLK_Div_Unit_max_div_ratio256_div_bits8', cell 'C161' does not drive any nets. (LINT-1)
+Warning: In design 'CLK_Div_Unit_max_div_ratio256_div_bits8', cell 'C191' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR_4_00000005', cell 'C78' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD_4_00000005', cell 'C75' does not drive any nets. (LINT-1)
+Warning: In design 'serializer_unit_data_width8', cell 'C114' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'B_16' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'B_17' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'B_18' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'C296' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'B_20' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'B_21' does not drive any nets. (LINT-1)
+Warning: In design 'RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_cnt_unit_data_width_ebc8_prescale_bits_ebc6', cell 'C132' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_cnt_unit_data_width_ebc8_prescale_bits_ebc6', cell 'C133' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_cnt_unit_data_width_ebc8_prescale_bits_ebc6', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling_unit_prescale_bits_DS6', cell 'C65' does not drive any nets. (LINT-1)
+Warning: In design 'deserializer_unit_data_width_deser8_prescale_bits_deser6', cell 'B_0' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SI_dft[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI_dft[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI_dft[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI_dft[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI_dft[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SE_dft' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO_dft[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO_dft[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO_dft[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO_dft[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO_dft[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling_unit_prescale_bits_DS6', port 'i_prescale_ds[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'CLK_Div_mux_prescale_bits6', output port 'o_config_prescale[7]' is connected directly to output port 'o_config_prescale[6]'. (LINT-31)
+Warning: In design 'UART_TX_TOP_data_width_Top8', a pin on submodule 'M_Top' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_start_bit_M' is connected to logic 0. 
+Warning: In design 'UART_TX_TOP_data_width_Top8', a pin on submodule 'M_Top' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_stop_bit_M' is connected to logic 1. 
+Warning: In design 'Sys_Ctrl_Unit_data_width8_Addr_Bits4', output port 'o_clk_div_en' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'CLK_Div_mux_prescale_bits6', output port 'o_config_prescale[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CLK_Div_mux_prescale_bits6', output port 'o_config_prescale[6]' is connected directly to 'logic 0'. (LINT-52)
+1

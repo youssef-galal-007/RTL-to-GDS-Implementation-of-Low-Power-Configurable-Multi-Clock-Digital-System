@@ -1,0 +1,106 @@
+Loading db file '/home/ICer/Final_Sys/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : SYS_TOP
+Version: O-2018.06-SP1
+Date   : Wed Oct  7 01:41:04 2026
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/Final_Sys/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+SYS_TOP                                1.28e-02 5.23e-02 1.61e+07 8.12e-02 100.0
+  FIFO (Async_FIFO_Top_data_width8_fifo_depth16_NUM_STG_DFF2_test_1)
+                                       3.57e-03 1.36e-02 3.86e+06 2.10e-02  25.9
+    FIFO_READ (FIFO_RD_4_00000005_test_1)
+                                       4.90e-08 7.43e-04 3.87e+05 1.13e-03   1.4
+    FIFO_WRITE (FIFO_WR_4_00000005_test_1)
+                                       3.20e-06 8.00e-04 3.40e+05 1.14e-03   1.4
+    FIFO_MEMO (FIFO_MEM_CNTRL_data_width_mem8_fifo_depth_mem16_address_W4_test_1)
+                                       2.94e-03 1.05e-02 2.85e+06 1.63e-02  20.1
+    sync_r2w (DF_SYNC_00000005_2_test_0)
+                                       1.06e-06 7.61e-04 1.33e+05 8.95e-04   1.1
+    sync_w2r (DF_SYNC_00000005_2_test_1)
+                                       2.88e-08 7.46e-04 1.33e+05 8.79e-04   1.1
+  Data_Sync (Data_synchronizer_data_width8_Num_Stg2_test_1)
+                                       3.26e-07 9.07e-04 2.08e+05 1.12e-03   1.4
+  UART (Uart_TOP_data_width8_prescale_bits6_test_1)
+                                       9.61e-04 4.04e-03 2.37e+06 7.38e-03   9.1
+    U_RX (Uart_RX_TOP_data_width_TOP8_prescale_bits_TOP6_test_1)
+                                       6.99e-04 2.82e-03 1.86e+06 5.38e-03   6.6
+      STR_U (strt_check_unit)             0.000    0.000 2.78e+03 2.78e-06   0.0
+      STP_U (stop_check_unit_test_1)      0.000 7.75e-05 2.96e+04 1.07e-04   0.1
+      PAR_U (parity_check_unit_data_width_par8_test_1)
+                                          0.000 7.67e-05 1.20e+05 1.96e-04   0.2
+      DESER_U (deserializer_unit_data_width_deser8_prescale_bits_deser6_test_1)
+                                       1.26e-04 1.21e-03 5.62e+05 1.90e-03   2.3
+      DS_U (data_sampling_unit_prescale_bits_DS6_test_1)
+                                       7.68e-06 2.52e-04 3.56e+05 6.16e-04   0.8
+      EBC_U (edge_bit_cnt_unit_data_width_ebc8_prescale_bits_ebc6_test_1)
+                                       8.09e-06 7.77e-04 4.13e+05 1.20e-03   1.5
+      RX_FSM_CU (RX_FSM_control_unit_data_width_fsm8_prescale_bits_fsm6_test_1)
+                                       1.65e-05 3.91e-04 3.63e+05 7.70e-04   0.9
+    U_TX (UART_TX_TOP_data_width_Top8_test_1)
+                                       2.32e-04 1.19e-03 5.10e+05 1.93e-03   2.4
+      SER_Top (serializer_unit_data_width8_test_1)
+                                       1.92e-07 8.57e-04 2.68e+05 1.13e-03   1.4
+      PAR_Top (Parity_Calc_data_width8_test_1)
+                                       1.98e-08 7.67e-05 1.17e+05 1.94e-04   0.2
+      FSM_Top (Control_unit_FSM_test_1)
+                                       2.43e-08 2.30e-04 9.09e+04 3.21e-04   0.4
+      M_Top (MUX)                         0.000    0.000 2.88e+04 2.88e-05   0.0
+  Pulse_G (pulse_gen_unit_test_1)         0.000 7.34e-05 1.78e+04 9.11e-05   0.1
+  RX_CLK_G (CLK_Div_Unit_max_div_ratio256_div_bits8_test_0)
+                                       1.39e-05 7.99e-04 6.03e+05 1.42e-03   1.7
+    add_84 (CLK_Div_Unit_max_div_ratio256_div_bits8_1_DW01_inc_0)
+                                       2.67e-08 1.19e-07 9.76e+04 9.78e-05   0.1
+  TX_CLK_G (CLK_Div_Unit_max_div_ratio256_div_bits8_test_1)
+                                       1.57e-05 7.93e-04 5.86e+05 1.40e-03   1.7
+    add_84 (CLK_Div_Unit_max_div_ratio256_div_bits8_0_DW01_inc_0)
+                                       7.23e-07 2.74e-06 9.75e+04 1.01e-04   0.1
+  Div_mux (CLK_Div_mux_prescale_bits6) 3.23e-06 5.93e-06 6.00e+04 6.92e-05   0.1
+  RST_SYNC_2 (rst_sync_unit_Num_stg2_test_1)
+                                       1.56e-06 1.72e-04 2.80e+04 2.02e-04   0.2
+  System_brain (Sys_Ctrl_Unit_data_width8_Addr_Bits4_test_1)
+                                       5.78e-06 2.34e-03 8.08e+05 3.15e-03   3.9
+  ALU (Alu_unit_op_width8_test_1)      7.68e-05 1.50e-02 4.30e+06 1.94e-02  23.9
+    mult_69 (Alu_unit_op_width8_DW02_mult_0)
+                                          0.000    0.000 1.65e+06 1.65e-03   2.0
+    add_57 (Alu_unit_op_width8_DW01_add_0)
+                                          0.000    0.000 2.05e+05 2.05e-04   0.3
+    sub_63 (Alu_unit_op_width8_DW01_sub_0)
+                                          0.000    0.000 2.48e+05 2.48e-04   0.3
+    div_81 (Alu_unit_op_width8_DW_div_uns_0)
+                                          0.000    0.000 1.24e+06 1.24e-03   1.5
+  SYS_REG_FILE (Reg_File_R_Width8_R_Depth16_R_Adderss_Bits4_test_1)
+                                       3.15e-03 1.17e-02 3.05e+06 1.79e-02  22.0
+  RST_SYNC_1 (rst_sync_unit_Num_stg2_test_0)
+                                       1.56e-06 1.69e-04 2.80e+04 1.98e-04   0.2
+  GATED_CLK (CLK_Gating_unit)          1.84e-03 2.23e-03 3.72e+04 4.10e-03   5.0
+1
