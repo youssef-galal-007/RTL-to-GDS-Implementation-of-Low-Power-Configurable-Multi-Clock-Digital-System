@@ -1,0 +1,59 @@
+
+current_design SYS_TOP
+
+####################################################################################
+                  #### Section 1 : Clock Definition ####
+#################################################################################### 
+
+clock -name i_Ref_Clk 	          -domain D1 -period 20     -waveform {0 10}
+
+clock -name i_Uart_Clk 	          -domain D2 -period 271.2  -waveform {0 135.6}
+
+####################################################################################
+                  #### Section 2 : Reset Definition ####
+####################################################################################
+
+reset -name i_RST_n -value 0 -async
+
+####################################################################################
+             #### Section 3 : set input/output clock domains  ####
+####################################################################################
+
+abstract_port -ports i_RX_IN_sys          -clock i_Uart_Clk
+
+####################################################################################
+             #### Section 4 : Quasi static signals  ####
+####################################################################################
+
+quasi_static -name SYS_TOP.SYS_REG_FILE.o_REG2_reg
+quasi_static -name SYS_TOP.SYS_REG_FILE.o_REG3_reg
+
+####################################################################################
+             #### Section 5 : set_case_analysis  ####
+####################################################################################
+
+set_case_analysis -name SYS_TOP.TX_CLK_G.clock_sel -value 0
+set_case_analysis -name SYS_TOP.RX_CLK_G.clock_sel -value 0
+
+####################################################################################
+             #### Section 6 : DATA/RESET Synchronizers  ####
+####################################################################################
+
+reset_synchronizer -name RST_SYNC_1.o_rst_n_Sync
+reset_synchronizer -name RST_SYNC_2.o_rst_n_Sync
+sync_cell -name DF_SYNC 
+
+####################################################################################
+             #### Section 7 : Constraints  ####
+####################################################################################
+
+cdc_attribute -unrelated  {SYS_TOP.unSync_RX_VLD SYS_TOP.FIFO.r_ptr}
+
+cdc_attribute -unrelated  {SYS_TOP.FIFO.w_ptr}
+
+cdc_attribute -unrelated  {SYS_TOP.FIFO.r_ptr}
+
+
+
+
+

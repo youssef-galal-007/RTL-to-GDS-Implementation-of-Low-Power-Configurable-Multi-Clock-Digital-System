@@ -1,0 +1,2 @@
+waive -rule {  {STARC05-1.4.3.4}  }  -comment {Created by ICer on 28-Sep-2026 00:15:55 { this signal is used to calculate the divided clock }}  -exact 
+waive -rule {  {STARC05-1.4.3.4}  }  -comment {Created by ICer on 28-Sep-2026 00:15:55 { this signal is used to calculate the divided clock }}  -exact 

@@ -1,0 +1,718 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/work/Eng.applications/Modelsim
+vAlu_unit
+Z0 !s110 1790541643
+!i10b 1
+!s100 Q0=AMlon2llmCCPgeT_`71
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IK<P`@bN;nlb]W5a5e1;PT0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls
+w1789821415
+8Alu_unit.v
+FAlu_unit.v
+!i122 31
+L0 2 165
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1790541643.000000
+!s107 rst_sync_unit.v|pulse_gen_unit.v|Sys_tb.v|SYS_TOP.v|Reg_File.v|Data_synchronizer.v|CLK_Gating_unit.v|CLK_Div_mux.v|CLK_Div_Unit.v|Alu_unit.v|
+Z6 !s90 -reportprogress|300|Alu_unit.v|CLK_Div_Unit.v|CLK_Div_mux.v|CLK_Gating_unit.v|Data_synchronizer.v|Reg_File.v|SYS_TOP.v|Sys_tb.v|pulse_gen_unit.v|rst_sync_unit.v|
+!i113 1
+Z7 tCvgOpt 0
+n@alu_unit
+vAsync_FIFO_Top
+Z8 !s110 1790541583
+!i10b 1
+!s100 R?5]o6DhdGa?eOk[mT2fV3
+R1
+Iofz>Fg@>;EbCC3A:iF9fW2
+R2
+R3
+w1789577088
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/Async_FIFO_Top.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/Async_FIFO_Top.v
+!i122 25
+L0 2 101
+R4
+r1
+!s85 0
+31
+Z9 !s108 1790541583.000000
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/Async_FIFO_Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/Async_FIFO_Top.v|
+!i113 1
+Z10 o-work work
+R7
+n@async_@f@i@f@o_@top
+vCLK_Div_mux
+R0
+!i10b 1
+!s100 G@nXSl6E0k>^_V0`@fHP`1
+R1
+I=YShLDNi[b:[BT]5dU81R2
+R2
+R3
+w1789822973
+8CLK_Div_mux.v
+FCLK_Div_mux.v
+!i122 31
+L0 2 51
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 rst_sync_unit.v|pulse_gen_unit.v|Sys_tb.v|SYS_TOP.v|Reg_File.v|Data_synchronizer.v|CLK_Gating_unit.v|CLK_Div_mux.v|CLK_Div_Unit.v|Alu_unit.v|
+R6
+!i113 1
+R7
+n@c@l@k_@div_mux
+vCLK_Div_Unit
+R0
+!i10b 1
+!s100 e?PMBMVZO0lKWVSVTz`VE0
+R1
+IOMnn4JO3U`a]5bzDNAh122
+R2
+R3
+w1790536363
+8CLK_Div_Unit.v
+FCLK_Div_Unit.v
+!i122 31
+L0 1 95
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@c@l@k_@div_@unit
+vCLK_Gating_unit
+R0
+!i10b 1
+!s100 9H4COKmb<n92IdF6W<2l[2
+R1
+I5a8ekMMWVHP0>gg;hhbYh3
+R2
+R3
+w1790541625
+8CLK_Gating_unit.v
+FCLK_Gating_unit.v
+!i122 31
+L0 2 27
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@c@l@k_@gating_unit
+vControl_unit_FSM
+Z12 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z13 !s110 1790541582
+!i10b 1
+!s100 CmRG@b3JQfX<97?@_3z:a0
+R1
+IF1P>iY2YjTd8ML:z>zVC<1
+R2
+S1
+R3
+w1789589011
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Control_unit_FSM.sv
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Control_unit_FSM.sv
+!i122 20
+L0 2 123
+R4
+r1
+!s85 0
+31
+Z14 !s108 1790541582.000000
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Control_unit_FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Control_unit_FSM.sv|
+!i113 1
+Z15 o-work work -sv
+R7
+n@control_unit_@f@s@m
+vdata_sampling_unit
+Z16 !s110 1790541581
+!i10b 1
+!s100 V<X1jPdz;VhogMoPJ54il3
+R1
+IaO]O23PeANi87J@PVJW6U0
+R2
+R3
+w1790297692
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/data_sampling_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/data_sampling_unit.v
+!i122 12
+L0 2 54
+R4
+r1
+!s85 0
+31
+Z17 !s108 1790541581.000000
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/data_sampling_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/data_sampling_unit.v|
+!i113 1
+R10
+R7
+vData_synchronizer
+Z18 !s110 1790541644
+!i10b 1
+!s100 V8I`enUo3UgbDzdh;z?NA3
+R1
+I@K8dAO]gzfk76=mJWOaTT0
+R2
+R3
+w1789679942
+8Data_synchronizer.v
+FData_synchronizer.v
+!i122 31
+L0 2 74
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@data_synchronizer
+vdeserializer_unit
+R16
+!i10b 1
+!s100 j8OgondKTkbTEFe]Q_2@^0
+R1
+IMGJG<3^UUH8W?:R_AWARf2
+R2
+R3
+w1789591950
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/deserializer_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/deserializer_unit.v
+!i122 13
+L0 2 53
+R4
+r1
+!s85 0
+31
+R17
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/deserializer_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/deserializer_unit.v|
+!i113 1
+R10
+R7
+vDF_SYNC
+R8
+!i10b 1
+!s100 N1V1TRENIHdEo]7fV=P@n1
+R1
+IS>UGHN]R:=2jlUT>KS49o2
+R2
+R3
+w1789574254
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/DF_SYNC.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/DF_SYNC.v
+!i122 26
+Z19 L0 2 44
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/DF_SYNC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/DF_SYNC.v|
+!i113 1
+R10
+R7
+n@d@f_@s@y@n@c
+vedge_bit_cnt_unit
+R16
+!i10b 1
+!s100 ^Ci9V82=29[=Qm_1afP<03
+R1
+IZFggUVFC?hK?Z5McW<^KP1
+R2
+R3
+w1787015659
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/edge_bit_cnt_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/edge_bit_cnt_unit.v
+!i122 14
+L0 2 78
+R4
+r1
+!s85 0
+31
+R17
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/edge_bit_cnt_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/edge_bit_cnt_unit.v|
+!i113 1
+R10
+R7
+vFIFO_MEM_CNTRL
+R8
+!i10b 1
+!s100 doM]h<5Llj4WK:A`fzzmJ3
+R1
+IKe^b=UWMgQ^fY@^c<XEW53
+R2
+R3
+w1790087950
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_MEM_CNTRL.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_MEM_CNTRL.v
+!i122 27
+L0 3 49
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_MEM_CNTRL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_MEM_CNTRL.v|
+!i113 1
+R10
+R7
+n@f@i@f@o_@m@e@m_@c@n@t@r@l
+vFIFO_RD
+R8
+!i10b 1
+!s100 RY>de2bQ=E1hnTjH5clTm3
+R1
+IZEN@09h_mOoA?@5h[`^O20
+R2
+R3
+w1789575884
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_RD.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_RD.v
+!i122 28
+R19
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_RD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_RD.v|
+!i113 1
+R10
+R7
+n@f@i@f@o_@r@d
+vFIFO_WR
+R8
+!i10b 1
+!s100 CLd5Vz>E5`A>z@[49E:j61
+R1
+IeESeiIj649<FA7Y^XV>VN1
+R2
+R3
+w1789575899
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_WR.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_WR.v
+!i122 29
+L0 2 47
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_WR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_WR.v|
+!i113 1
+R10
+R7
+n@f@i@f@o_@w@r
+vMUX
+R13
+!i10b 1
+!s100 n<LgM6343Ud:<d<ikOE@Z3
+R1
+I;K97__QMB9=94jXilR:@23
+R2
+R3
+w1789588016
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/MUX.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/MUX.v
+!i122 21
+L0 2 40
+R4
+r1
+!s85 0
+31
+R14
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/MUX.v|
+!i113 1
+R10
+R7
+n@m@u@x
+vParity_Calc
+R13
+!i10b 1
+!s100 LP5jYhk>P7=IfH^;=ZAn@2
+R1
+IKKHlL`SO[Xa0zFKS0cbNo2
+R2
+R3
+w1789589327
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Parity_Calc.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Parity_Calc.v
+!i122 22
+L0 1 30
+R4
+r1
+!s85 0
+31
+R14
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Parity_Calc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Parity_Calc.v|
+!i113 1
+R10
+R7
+n@parity_@calc
+vparity_check_unit
+R16
+!i10b 1
+!s100 nJKm0K_HSeX8F?98GZP4<2
+R1
+IfW1;Qaz75f9VAh[[;d7^j1
+R2
+R3
+w1789592690
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/parity_check_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/parity_check_unit.v
+!i122 15
+L0 2 43
+R4
+r1
+!s85 0
+31
+R17
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/parity_check_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/parity_check_unit.v|
+!i113 1
+R10
+R7
+vpulse_gen_unit
+R18
+!i10b 1
+!s100 Q5?i`VnB@e7k^lMnC]e?33
+R1
+IC_U00RgJELYV=Q4I:W=8V3
+R2
+R3
+w1789683555
+8pulse_gen_unit.v
+Fpulse_gen_unit.v
+!i122 31
+L0 2 29
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+vReg_File
+R18
+!i10b 1
+!s100 `^5LBdQ81F_5F5cbZAOjY3
+R1
+IZ1I`Z;75n7<=YeVeQ>RD>2
+R2
+R3
+w1790295112
+8Reg_File.v
+FReg_File.v
+!i122 31
+L0 2 89
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@reg_@file
+vrst_sync_unit
+R18
+!i10b 1
+!s100 AI25Fdn]M`hh[KnQ8NVC41
+R1
+INQoSf:?m?Bz^Z6I]`DMMJ3
+R2
+R3
+w1789563501
+8rst_sync_unit.v
+Frst_sync_unit.v
+!i122 31
+Z20 L0 2 26
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+vRX_FSM_control_unit
+R12
+R16
+!i10b 1
+!s100 eoJHRfNdm0hP^L0Hda2Jz2
+R1
+Ij5]7IBcXYl24kmIKU@>D13
+R2
+S1
+R3
+w1789593354
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/RX_FSM_control_unit.sv
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/RX_FSM_control_unit.sv
+!i122 16
+L0 2 270
+R4
+r1
+!s85 0
+31
+R17
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/RX_FSM_control_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/RX_FSM_control_unit.sv|
+!i113 1
+R15
+R7
+n@r@x_@f@s@m_control_unit
+vserializer_unit
+R13
+!i10b 1
+!s100 ;3L;Q[>[TUh9@^AA46T7^3
+R1
+I`U=hWE@RHn0[;A:C`4_m23
+R2
+R3
+w1790091702
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/serializer_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/serializer_unit.v
+!i122 23
+L0 2 60
+R4
+r1
+!s85 0
+31
+R14
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/serializer_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/serializer_unit.v|
+!i113 1
+R10
+R7
+vstop_check_unit
+R16
+!i10b 1
+!s100 k6zcCf@cV9PFTgg8dRd>82
+R1
+IX=8V@_OYGnn1c0=R]FYUQ3
+R2
+R3
+w1789592741
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/stop_check_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/stop_check_unit.v
+!i122 17
+L0 2 36
+R4
+r1
+!s85 0
+31
+R17
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/stop_check_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/stop_check_unit.v|
+!i113 1
+R10
+R7
+vstrt_check_unit
+R13
+!i10b 1
+!s100 XBK=f1dZe7:gVIdDL30]40
+R1
+IZ]Ib_WeI0DL8EMcUgGU^T0
+R2
+R3
+w1789592849
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/strt_check_unit.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/strt_check_unit.v
+!i122 18
+R20
+R4
+r1
+!s85 0
+31
+R14
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/strt_check_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/strt_check_unit.v|
+!i113 1
+R10
+R7
+vSys_Ctrl_Unit
+R12
+!s110 1790541580
+!i10b 1
+!s100 XMSPAlc@g9FB7OSb[Y`7e2
+R1
+IzdGXMmhZSQ2g27bd90oBA3
+R2
+S1
+R3
+w1790088062
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_Ctrl_Unit.sv
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_Ctrl_Unit.sv
+!i122 8
+L0 2 382
+R4
+r1
+!s85 0
+31
+Z21 !s108 1790541580.000000
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_Ctrl_Unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_Ctrl_Unit.sv|
+!i113 1
+R15
+R7
+n@sys_@ctrl_@unit
+vSys_tb
+R18
+!i10b 1
+!s100 :k<_6m5jVMND621>W0d`:2
+R1
+IKYak;3K[W<G1624WE^mZR2
+R2
+R3
+w1789941900
+8Sys_tb.v
+FSys_tb.v
+!i122 31
+L0 30 293
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@sys_tb
+vSYS_TOP
+R18
+!i10b 1
+!s100 kPcBb?aDR:7[CZ=NPPXNd0
+R1
+I=B]L_LXQn4SKPo=H9jdne1
+R2
+R3
+w1790524790
+8SYS_TOP.v
+FSYS_TOP.v
+!i122 31
+L0 2 333
+R4
+r1
+!s85 0
+31
+R5
+R11
+R6
+!i113 1
+R7
+n@s@y@s_@t@o@p
+vUart_RX_TOP
+R13
+!i10b 1
+!s100 YOJ^0kC_zIMZEUBX1^>4J3
+R1
+IYzU8^2?Uz=DoelW4nK9@k0
+R2
+R3
+w1789594140
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/Uart_RX_TOP.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/Uart_RX_TOP.v
+!i122 19
+L0 2 142
+R4
+r1
+!s85 0
+31
+R14
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/Uart_RX_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/Uart_RX_TOP.v|
+!i113 1
+R10
+R7
+n@uart_@r@x_@t@o@p
+vUart_TOP
+R16
+!i10b 1
+!s100 1Zi]eWj[8f[IfC7i6BL3f1
+R1
+IACDS3<f0h=FRDhYN?ImV43
+R2
+R3
+w1789649038
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/Uart_TOP.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/Uart_TOP.v
+!i122 11
+L0 2 66
+R4
+r1
+!s85 0
+31
+R21
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/Uart_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/Uart_TOP.v|
+!i113 1
+R10
+R7
+n@uart_@t@o@p
+vUART_TX_TOP
+R8
+!i10b 1
+!s100 Om?>7KQLdz^9M;=9kK`PI2
+R1
+IOm:Q0>gh<iCY4P`GOVKAa1
+R2
+R3
+w1789591069
+8E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/UART_TX_TOP.v
+FE:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/UART_TX_TOP.v
+!i122 24
+L0 2 72
+R4
+r1
+!s85 0
+31
+R14
+!s107 E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/UART_TX_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/UART_TX_TOP.v|
+!i113 1
+R10
+R7
+n@u@a@r@t_@t@x_@t@o@p

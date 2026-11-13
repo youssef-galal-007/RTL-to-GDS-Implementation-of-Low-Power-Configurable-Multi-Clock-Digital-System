@@ -1,0 +1,4 @@
+waive -rule {  {Setup_port01}  }  -comment {Created by ICer on 28-Sep-2026 03:45:44}  -exact 
+waive -rule {  {Ac_cdc01a}  }  -comment {Created by ICer on 28-Sep-2026 03:45:55}  -exact 
+waive -rule {  {Ac_conv04}  }  -comment {Created by ICer on 28-Sep-2026 03:46:06}  -exact 
+waive -rule {  {Ac_datahold01a}  }  -comment {Created by ICer on 28-Sep-2026 03:46:21}  -exact 

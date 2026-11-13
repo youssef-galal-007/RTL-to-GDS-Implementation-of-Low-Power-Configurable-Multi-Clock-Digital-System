@@ -1,0 +1,204 @@
+{E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/Uart_RX_TOP.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/Uart_RX_TOP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Uart_RX_TOP
+
+Top level modules:
+	Uart_RX_TOP
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_RD.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_RD.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_RD
+
+Top level modules:
+	FIFO_RD
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/rst_sync_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/rst_sync_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rst_sync_unit
+
+Top level modules:
+	rst_sync_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_tb.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sys_tb
+
+Top level modules:
+	Sys_tb
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/strt_check_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/strt_check_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module strt_check_unit
+
+Top level modules:
+	strt_check_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/CLK_Div_mux.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/CLK_Div_mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CLK_Div_mux
+
+Top level modules:
+	CLK_Div_mux
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Reg_File.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Reg_File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Control_unit_FSM.sv} {1 {vlog -work work -sv -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Control_unit_FSM.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Control_unit_FSM
+
+Top level modules:
+	Control_unit_FSM
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/UART_TX_TOP.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/UART_TX_TOP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_TX_TOP
+
+Top level modules:
+	UART_TX_TOP
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/data_sampling_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/data_sampling_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_sampling_unit
+
+Top level modules:
+	data_sampling_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Data_synchronizer.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Data_synchronizer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_synchronizer
+
+Top level modules:
+	Data_synchronizer
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/MUX.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/MUX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/DF_SYNC.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/DF_SYNC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DF_SYNC
+
+Top level modules:
+	DF_SYNC
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/parity_check_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/parity_check_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module parity_check_unit
+
+Top level modules:
+	parity_check_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/SYS_TOP.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/SYS_TOP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SYS_TOP
+
+Top level modules:
+	SYS_TOP
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/Uart_TOP.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/Uart_TOP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Uart_TOP
+
+Top level modules:
+	Uart_TOP
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/edge_bit_cnt_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/edge_bit_cnt_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_bit_cnt_unit
+
+Top level modules:
+	edge_bit_cnt_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/CLK_Div_Unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/CLK_Div_Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CLK_Div_Unit
+
+Top level modules:
+	CLK_Div_Unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/RX_FSM_control_unit.sv} {1 {vlog -work work -sv -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/RX_FSM_control_unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RX_FSM_control_unit
+
+Top level modules:
+	RX_FSM_control_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_Ctrl_Unit.sv} {1 {vlog -work work -sv -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Sys_Ctrl_Unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sys_Ctrl_Unit
+
+Top level modules:
+	Sys_Ctrl_Unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/Async_FIFO_Top.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/Async_FIFO_Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Async_FIFO_Top
+
+Top level modules:
+	Async_FIFO_Top
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/stop_check_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/stop_check_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stop_check_unit
+
+Top level modules:
+	stop_check_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/deserializer_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/RX/deserializer_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module deserializer_unit
+
+Top level modules:
+	deserializer_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_WR.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_WR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_WR
+
+Top level modules:
+	FIFO_WR
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_MEM_CNTRL.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/FIFO/FIFO_MEM_CNTRL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO_MEM_CNTRL
+
+Top level modules:
+	FIFO_MEM_CNTRL
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/serializer_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/serializer_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module serializer_unit
+
+Top level modules:
+	serializer_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Parity_Calc.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/UART/TX/Parity_Calc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Parity_Calc
+
+Top level modules:
+	Parity_Calc
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Alu_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/Alu_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Alu_unit
+
+Top level modules:
+	Alu_unit
+
+} {} {}} {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/pulse_gen_unit.v} {1 {vlog -work work -stats=none {E:/work/Youssef/Engineering stuff/courses/Digital/Final_Sys/rtls/pulse_gen_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulse_gen_unit
+
+Top level modules:
+	pulse_gen_unit
+
+} {} {}}
