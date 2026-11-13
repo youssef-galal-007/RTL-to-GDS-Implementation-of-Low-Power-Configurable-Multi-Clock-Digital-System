@@ -1,0 +1,38 @@
+****************************************
+Report : Time Based Power
+Design : SYS_TOP
+Version: O-2018.06-SP1
+Date   : Fri Oct  9 03:26:34 2026
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           2.435e-04 3.669e-07 3.088e-08 2.439e-04 (93.46%)  i
+register                2.656e-07 1.375e-07 5.596e-06 5.999e-06 ( 2.30%)  
+combinational           6.035e-07 2.045e-07 1.027e-05 1.108e-05 ( 4.25%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 7.089e-07   ( 0.27%)
+  Cell Internal Power  = 2.444e-04   (93.64%)
+  Cell Leakage Power   = 1.590e-05   ( 6.09%)
+                         ---------
+Total Power            = 2.610e-04  (100.00%)
+
+X Transition Power     =    0.0000
+Glitching Power        =    0.0000
+
+Peak Power             =    0.2802
+Peak Time              = 5546040.000
+
+1
