@@ -1,0 +1,199 @@
+
+#******
+# Preview export LEF
+#
+#	 Preview sub-version 5.10.41.500.3.38
+#
+# TECH LIB NAME: tsmc18
+# TECH FILE NAME: techfile.cds
+#******
+
+VERSION 5.4 ;
+
+NAMESCASESENSITIVE ON ;
+
+DIVIDERCHAR "|" ;
+BUSBITCHARS "[]" ;
+
+UNITS
+    DATABASE MICRONS 100  ;
+END UNITS
+
+MACRO SYS_TOP
+    CLASS CORE ;
+    FOREIGN SYS_TOP 0 0 ;
+    ORIGIN 0.00 0.00 ;
+    SIZE 240.6 BY 200.6 ;
+    SYMMETRY X Y ;
+    PIN SI_dft[0]
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 150 0.2 150.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END SI_dft[0]
+    PIN SI_dft[1]
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 140 0.2 140.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END SI_dft[1]
+    PIN SI_dft[2]
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 130 0.2 130.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END SI_dft[2]
+    PIN SI_dft[3]
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 120 0.2 120.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END SI_dft[3]
+    PIN SE_dft
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 110 0.2 110.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END SE_dft
+    PIN test_mode_dft
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 100 0.2 100.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END test_mode_dft
+    PIN scan_clk_dft
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 90 0.2 90.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END scan_clk_dft
+    PIN scan_rst_n_dft
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 80 0.2 80.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END scan_rst_n_dft
+    PIN i_RST_n
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 70 0.2 70.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END i_RST_n
+    PIN i_Uart_Clk
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 60 0.2 60.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END i_Uart_Clk
+    PIN i_Ref_Clk
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 50 0.2 50.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END i_Ref_Clk
+    PIN i_RX_IN_sys
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 40 0.2 40.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END i_RX_IN_sys
+    PIN SI_dft[4]
+        DIRECTION INPUT ;
+        PORT
+        LAYER METAL2 ;
+        RECT  0.00 30 0.2 30.2 ;
+        END
+	AntennaGateArea 0.0 ;
+    END SI_dft[4]
+    PIN SO_dft[4]
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 160 240.67 160.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END SO_dft[4]
+    PIN SO_dft[0]
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 140 240.67 140.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END SO_dft[0]
+    PIN SO_dft[1]
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 120 240.67 120.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END SO_dft[1]
+    PIN SO_dft[2]
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 100 240.67 100.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END SO_dft[2]
+    PIN SO_dft[3]
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 80 240.67 80.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END SO_dft[3]
+    PIN o_TX_OUT_sys
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 60 240.67 60.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END o_TX_OUT_sys
+    PIN o_Parity_Error_sys
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 40 240.67 40.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END o_Parity_Error_sys
+    PIN o_Stop_Error_sys
+        DIRECTION OUTPUT ;
+        PORT
+        LAYER METAL3 ;
+        RECT  240.47 20 240.67 20.2 ; 
+        END
+	AntennaDiffArea 0.575 ;
+    END o_Stop_Error_sys
+END SYS_TOP
+
+END LIBRARY
+
